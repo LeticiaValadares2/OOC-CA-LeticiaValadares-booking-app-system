@@ -1,0 +1,9 @@
+ReservationID,BookingID,UserID,ReservationType
+1001,201,1,Hotel Room
+1002,201,2,Car Rental
+1003,201,3,Flight Ticket
+1004,201,4,Conference Hall
+1005,201,5,Restaurant Table
+1006,202,6,Cruise Trip
+1007,202,7,Luxury Suite
+1008,202,8,Event Ticket
