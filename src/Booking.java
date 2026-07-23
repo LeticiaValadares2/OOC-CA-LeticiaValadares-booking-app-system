@@ -28,10 +28,7 @@ public class Booking {
             throws OverbookingException {
 
         if (reservations.size() >= 5) {
-            throw new OverbookingException(
-                    "Booking " + bookingId
-                            + " cannot have more than 5 reservations."
-            );
+            throw new OverbookingException( "Booking " + bookingId + " cannot have more than 5 reservations." );
         }
 
         reservations.add(reservation);
@@ -47,10 +44,7 @@ public class Booking {
             }
         }
 
-        throw new ReservationNotFoundException(
-                "Reservation " + reservationId
-                        + " was not found in booking " + bookingId + "."
-        );
+        throw new ReservationNotFoundException( "Reservation " + reservationId + " was not found in booking " + bookingId + "." );
     }
 
     public void confirmReservation(int reservationId)
