@@ -37,6 +37,14 @@ public class Reservation {
 
         System.out.println( "Reservation " + reservationId + " was cancelled for " + user.getName() + "." );
     }
+    public void confirm() {
+        status = "Confirmed";
+
+        System.out.println(
+                "Reservation " + reservationId
+                        + " was confirmed for " + user.getName() + "."
+        );
+    }
 
     public void modify(String newType) {
         reservationType = newType;
