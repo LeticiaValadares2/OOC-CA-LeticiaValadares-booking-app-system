@@ -1,3 +1,4 @@
+// Represents a reservation made by a user.
 public class Reservation {
     private int reservationId;
     private int bookingId;
@@ -53,6 +54,7 @@ public class Reservation {
         System.out.println("Reservation " + reservationId + " was modified. New details: " + newType + ".");
     }
 
+    // Return reservation information.
     public String toString() {
         return "Reservation ID: " + reservationId
                 + ", Booking ID: " + bookingId

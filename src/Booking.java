@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Represents a booking created by a user.
 public class Booking {
 
     private int bookingId;

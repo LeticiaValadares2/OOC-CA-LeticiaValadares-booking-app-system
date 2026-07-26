@@ -1,5 +1,6 @@
+// Represents a user of the booking system.
 public class User {
-
+    
     private int userId;
     private String name;
     private String category;
